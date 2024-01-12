@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RPB">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body> 
+    <div class="background">
+        <header>
+            <img class="logo" src="logo.png" alt="Header Image">
+            <h1>Philippine Science High School - Caraga Region Campus</h1>  
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="acads.html">Academics</a></li>
+                    <li><a href="adms.html">Admission</a></li>
+                    <li><a href="#">News</a></li>
+                    <input type="search" id="searchInput" name="q" placeholder="Search">
+                    <input type="submit" value="Search">
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="center-rectangle">
+        <div class="overlay-text">
+            <p class="about">
+                Welcome to the News Section of the Philippine Science High School - Caraga Region Campus! Explore our latest achievements and notable events.
+
+                <div class="news-item">
+                    <h2>PSHS-Caraga Campus Director Engr. Ramil A. Sanchez talks about gratitude to start the 2nd week of 2024 </h2>
+                    <img class= "sr" src="sir.png">
+                </div>
+
+                <div class="news-item">
+                    <h2>Achievements</h2>
+                    <p>
+                        Scholars are often encouraged to be competitive, as from the lines “preparing our scholars to become globally competitive Filipino scientists equipped with 21st-century skills” from the PSHS Vision stated. As such, scholars of PSHS-CRC brings pride to its campus as they bring us awards and glory from their different contests may it be national or international.
+                    </p>
+                </div>
+
+                <div class="news-item">
+                    <h2>Different awards and achievements of PSHS-CRC students:</h2>
+                        <img class= "acm" src="indak.png">
+                        <img class= "acm" src= "tts.png">
+                        <img class= "acm" src= "debate.png">
+                        <img class= "acm" src= "kuya.png">
+                        <img class= "acm" src= "math.png">
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+<style> 
+    .acm{
+        width:600px;
+    }
+    .sr{
+        width: 600px;
+        opacity: 0.9;
+    }
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg2.jpg') no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+    .background {
+        position: relative;
+    }
+    header {
+        position: relative; 
+        z-index: 1; 
+        padding: 20px;
+        text-align: center;
+    }
+    .logo {
+        float: left;
+        width: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-top: 40px;
+        text-align: left;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 105px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    nav li {
+        margin-right: 15px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease-in-out;
+    }
+    nav a:hover {
+        color: #00bcd4;
+    }
+    input[type="search"] {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    input[type="submit"] {
+        background-color: #00bcd4;
+        color: #fff;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }  
+    .center-rectangle {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;     
+        width: 60%;
+        max-height: 60%;
+        overflow: auto;
+        padding: 20px;
+        border: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: justify;
+        transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .center-rectangle:hover {
+        opacity: 0.8;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+    .news-item {
+        margin-top: 20px;
+        padding: 15px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .news-item h2 {
+        color: #00bcd4;
+        margin-bottom: 10px;
+    }
+</style>
+</html>
+
+

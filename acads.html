@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RPB">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body> 
+    <div class="background">
+        <header>
+            <img class="logo" src="logo.png" alt="Header Image">
+            <h1>Philippine Science High School - Caraga Region Campus</h1>  
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="adms.html">Admission</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <input type="search" id="searchInput" name="q" placeholder="Search"> <!-- DINI MUGANA SIR HEHE-->
+                    <input type="submit" value="Search">
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="center-rectangle">
+        <div class="overlay-text">
+            <p class="about">
+                Learn about the Philippine Science High School - Caraga Region Campus's academic structure and subjects.
+
+                <div class="program-section">
+                    <h2>ACADEMIC GOALS</h2>
+                    <p>
+                        The academic structure and goal of our institution is designed to provide students with a strong foundation in science, technology, engineering, and mathematics (STEM). The curriculum is rigorous and focuses on developing critical thinking, problem-solving, and research skills.
+                    </p>
+                </div>
+
+                <div class="program-section">
+                    <h2>SUBJECT OFFERINGS</h2>
+                    <p>
+                        Our school offers a wide range of subjects that cover various STEM disciplines. Students engage in in-depth studies in subjects such as Physics, Chemistry, Biology, Mathematics, Computer Science, Researches, and many more. The curriculum is designed to inspire students to excel in their chosen stem fields.
+                    </p>
+                </div>
+
+                <div class="program-section">
+                    <h2>RESEARCH OPPORTUNITIES</h2>
+                    <p>
+                        The PSHS-Institution encourages students to participate in research projects. Our school provides opportunities for students to collaborate with teachers and engage in hands-on research experiences, fostering a culture of curiosity, critical analysis, and innovation.
+                    </p>
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+<style> 
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg1.jpg') no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+    .background {
+        position: relative;
+    }
+    header {
+        position: relative; 
+        z-index: 1; 
+        padding: 20px;
+        text-align: center;
+    }
+    .logo {
+        float: left;
+        width: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-top: 40px;
+        text-align: left;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 105px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    nav li {
+        margin-right: 15px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease-in-out;
+    }
+    nav a:hover {
+        color: #00bcd4;
+    }
+    input[type="search"] {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    input[type="submit"] {
+        background-color: #00bcd4;
+        color: #fff;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }  
+    .center-rectangle {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;     
+        width: 60%;
+        max-height: 60%;
+        overflow: auto;
+        padding: 20px;
+        border: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: justify;
+        transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .center-rectangle:hover {
+        opacity: 0.8;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+    .program-section {
+        margin-top: 20px;
+        padding: 15px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+    }
+    .program-section h2 {
+        color: #00bcd4;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+</html>

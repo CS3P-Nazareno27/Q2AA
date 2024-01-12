@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RPB">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body> 
+    <div class="background">
+        <header>
+            <img class="logo" src="logo.png" alt="Header Image">
+            <h1>Philippine Science High School - Caraga Region Campus</h1>  
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="acads.html">Academics</a></li>
+                    <li><a href="adms.html">Admission</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <input type="search" id="searchInput" name="q" placeholder="Search">
+                    <input type="submit" value="Search">
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="rectangle">
+        <div class="overlay-text">
+            <p class="about">
+                Welcome to the Philippine Science High School - Caraga Region Campus! Explore our programs and discover the opportunities we offer.
+
+                <div class="pgr">
+                    <h2>MISSION</h2>
+                    <p>
+                        Advancing premier high school STEM education for the people 
+                    </p>
+                </div>
+
+                <div class="pgr">
+                    <h2>VISION</h2>
+                    <p>
+                        We are the leading science high school in the Asia Pacific Region preparing our scholars to become globally competitive Filipino scientists equipped with 21st century skills and imbued with the core values of Integrity, Excellence and Service to Nation.
+                    </p>
+                </div>
+
+                <div class="pgr">
+                    <h2>QUALITY POLICY</h2>
+                    <p>
+                        The Philippine Science High School System (PSHSS) is dedicated to
+                        providing relevant secondary education with emphasis on science,
+                        technology, engineering, and mathematics and aimed at preparing students
+                        to become globally competitive Filipino science and technology leaders and
+                        professionals imbued with core values of integrity, excellence, and service
+                        to the nation. Moreover, the PSHSS is committed to continual
+                        improvement and compliance to existing statutory and regulatory
+                        requirements.
+                    </p>
+                </div>
+
+                <div class="pgr">
+                    <h2>MANDATE</h2>
+                    <p>
+                        The Philippine Science High School (PSHS) was established by the Republic Act (RA) 3661, also known as the PSHS Charter, which was signed into law in 1964 by President Diosdado Macapagal. This charter mandates the PSHS to a secondary course with emphasis on subjects pertaining to service offered on a free scholarship basis with the end in view of preparing its students for a science career.
+                    </p>
+                </div>
+                <div class="pgr">
+                    <h2>Scholarship and Stipend</h2>
+                    <p>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Full</th>
+                                <th>Partial 1</th>
+                                <th>Partial 2</th>
+                                <th>Partial 3</th>
+                            </tr>
+                            <tr>
+                                <td>Stipend</td>
+                                <td>500.00</td>
+                                <td>500.00</td>
+                                <td>500.00</td>
+                                <td>500.00</td>
+                            </tr>
+                            <tr>
+                                <td>Living Allowance</td>
+                                <td>3,500.00</td>
+                                <td>3,000.00</td>
+                                <td>2,000.00</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>Total Grant Per Month</td>
+                                <td>4,000.00</td>
+                                <td>3,500.00</td>
+                                <td>2,500.00</td>
+                                <td>500.00</td>
+                            </tr>
+                        </table>
+                    </p>
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+<style> 
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        overflow: hidden;
+        background: url('bg1.jpg') no-repeat center;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg1.jpg') no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+    .background {
+        position: relative;
+    }
+    header {
+        position: relative; 
+        z-index: 1; 
+        padding: 20px;
+        text-align: center;
+    }
+    .logo {
+        float: left;
+        width: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-top: 40px;
+        text-align: left;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 105px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    nav li {
+        margin-right: 15px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease-in-out;
+    }
+    nav a:hover {
+        color: #00bcd4;
+    }
+    input[type="search"] {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    input[type="submit"] {
+        background-color: #00bcd4;
+        color: #fff;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }  
+    .rectangle {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;     
+        width: 60%;
+        max-height: 60%;
+        overflow: auto;
+        padding: 20px;
+        border: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: justify;
+        transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .rectangle:hover {
+        opacity: 0.8;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }   
+    .pgr{
+        margin-top: 20px;
+        padding: 15px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+    }
+    .pgr h2 {
+        color: #00bcd4;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+</html>
+
+
+
+
